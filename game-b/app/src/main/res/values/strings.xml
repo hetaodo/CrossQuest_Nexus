@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GameB</string>
+    <string name="tip">Try to pick it up</string>
+    <string name="key">Key</string>
+</resources>

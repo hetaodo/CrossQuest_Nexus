@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nuclean.gameb"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Request custom permission declared by GameA -->
+    <uses-permission android:name="com.crossquest.nexus.permission.PROGRESS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_gameb"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_gameb"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GameB"
+        tools:targetApi="31">
+
+        <!-- Main launcher activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

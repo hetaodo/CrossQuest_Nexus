@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Installer</string>
+    <string name="apk">APK Name</string>
+    <string name="download">Download</string>
+</resources>
